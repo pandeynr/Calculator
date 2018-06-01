@@ -1,0 +1,58 @@
+<doctype <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+</head>
+<body>
+  <!-- To do: fix percents, sqrt, +/-
+WIP -->
+
+<div class = "calculatorContainer">
+    <h1 id = "header"> Online Calculator </h1>
+     <table class = "calcHeader">
+    <tr><th id = "history"></th></tr>     <tr><th id = "screen"><span id = "signMarker"></span><span id = sqrtMarkerStart></span><span id = "numberMarker"></span><span id = "percentMarker"></span><span id = sqrtMarkerEnd></span> </th></tr>
+<tr><th id = "oldHistory"></th></tr>
+    </table>
+  
+  <table class = "inputContainer">
+    <tr>
+      <th class = "input sqrt">&#8730;</th>
+      <th class = "input percent">%</th>
+      <th class = "input sign">+/-</th>
+      <th class = "input operators">&#247;</th>
+    </tr>
+    <tr>
+      <th class = "input numbers">7</th>
+      <th class = "input numbers">8</th>
+      <th class = 'input numbers'>9</th>
+      <th class = "input operators">&#215;</th>
+    </tr>
+    <tr>
+      <th class = 'input numbers'>4</th>
+      <th class = "input numbers">5</th>
+      <th class = "input numbers">6</th>
+      <th class = "input operators">-</th>
+    </tr>
+    <tr>
+      <th class = 'input numbers'>1</th>
+      <th class = 'input numbers'>2</th>
+      <th class = 'input numbers'>3</th>
+      <th class = "input operators">+</th>
+    </tr>
+    <tr>
+      <th class = 'input numbers'>0</th>
+      <th class = "input numbers">.</th>
+      <th class = "input operators">=</th>
+      <th class = "input clear"> AC </th>
+    </tr>
+  </table>
+</div>
+
+<script src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src="index.js"></script>
+</body>
+</html>>
